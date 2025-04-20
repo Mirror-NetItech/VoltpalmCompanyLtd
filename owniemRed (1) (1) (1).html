@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>VOLPALM Company Ltd. - Palm Plantation and Palm Oil Production</title>
+    <meta name="description" content="VOLPALM Company Ltd. is a leading palm plantation and palm oil production company in Ghana, specializing in sustainable palm oil production for soap manufacturing.">
+    <meta name="keywords" content="palm plantation, palm oil production, soap manufacturing, sustainable palm oil, Ghana">
+    <meta property="og:title" content="VOLPALM Company Ltd.">
+<meta property="og:description" content="Palm plantation and palm oil production company in Ghana.">
+<meta property="og:url" content="https://mirror-netitech.github.io/VoltpalmCompanyLtd/">
+<meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.app.goo.gl/xbEYXKj2gqCay6xR6">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://images.app.goo.gl/xbEYXKj2gqCay6xR6">
+  <style>
+    /* General Styles */
+    html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  background-color: #f0f4f8;
+  overflow: hidden; /* Important: Prevent body scrolling */
+  align-items: center;
+    justify-content: center;
+}
+
+.main {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* Existing CSS (Keep as is) */
+
+/* Add these new rules */
+.main.active {
+  transform: scale(0.9); /* Scale down */
+  filter: blur(5px);       /* Apply blur */
+  transition: transform 0.3s ease, filter 0.3s ease; /*Smooth transition*/
+}
+
+.glass.active {
+  transform: scale(0.9);
+}
+
+/* Background and Palm Tree */
+.background {
+  position: fixed;
+  top: 7vh;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 100%;
+  height: calc(100vh - 12vh); /* Adjusted height */
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Content Background (GIF) */
+.content-background {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 97.5vw;
+  max-width: 97.5%;
+  height: 95vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Glass Effect */
+/* Glass Effect */
+.glass {
+  position: relative;
+  width: 99.99%;
+  max-width: 99.99%;
+  height: 85%; /* Adjusted height */
+  z-index: 1;
+  padding: 0;
+  margin: 0 auto;
+  top: 3vh;
+  background-color: rgba(255, 255, 255, 0.0001);
+  border-radius: 20px;
+  box-shadow: inset 6px 6px 6px #800000, inset -6px -6px  6px #FF4500; /* Increased spread-radius */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+  /*Positioning in the middle between curved and bottom-nav */
+  margin-bottom: 0vh;
+}
+/* Add a pseudo-element to create the bottom shadow */
+.glass::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+  width: 99%;
+  margin: 0 auto;
+  justify-content: center;
+  height: 10px; /* Adjust the height to match your box-shadow */
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: inset 0 -10px  6px #FF4500; /* Adjust the box-shadow to match your design */
+  z-index: 3; /* Ensure the pseudo-element is on top of the scrollable content */
+  pointer-events: none; /* Allow interactions with the underlying content */
+}
+    /* Top Navigation Bar (Home) */
+    .top-nav {
+      height: 7vh;             /* 7% of viewport height */
+      background: linear-gradient(220deg, #800000, #FF4500);
+      display: flex;            /* Use flexbox for vertical layout */
+      flex-direction: column;   /* Stack items vertically */
+      justify-content: center; /* align items to the top */
+      align-items: center;
+      box-shadow: 5px 2px 5px #d1d9e6, -5px -2px 5px #fff;
+      margin: 0;
+      padding: 0.5% 0 0 0;
+      color: #4CAF50;
+      box-sizing: border-box;
+      border-bottom: 1px solid rgba(255, 255, 255, .8);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 4;
+    }
+
+    /* Nav Top */
+    .nav-top {
+      height: 53%;
+      /* Corrected calculation: 4/7 = ~57% */
+      padding: 0;
+      display: flex;
+      margin-right: 2% 25% 0 0;
+      white-space: nowrap;
+      box-sizing: border-box;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Nav Bottom */
+    .nav-bottom {
+      height: 47%;            /* Corrected Calculation: 3/7 = ~43%  (remaining height) */
+     padding: 0;
+      margin: 0 0 0 25%;
+      white-space: nowrap;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .topSpan{
+      font-weight: bolder;
+      font-size: 2.5rem;
+      white-space: nowrap;
+    }
+    .bottomSpan{
+      font-weight: bold;
+      font-size: 2rem;
+      white-space: nowrap;
+    }
+    .bottomSpan h3{
+      display: inline;
+      margin: ;
+      padding: 0;
+      font-size: inherit;
+    }
+    /* Custom "O" */
+    .custom-o {
+      position: relative;
+      display: inline-block;
+      top: 5px;
+      width: 3.3rem; /* Adjusted size */
+      margin: 0;
+      height: 3.2rem; /* Adjusted size */
+      vertical-align: middle;
+      border: 0.3rem solid #4CAF50; /* Adjust border thickness and color */
+      background: white;
+      border-radius: 50%;
+      box-sizing: border-box; /* Include border in width/height */
+    }
+
+    .o-inner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .o-inner img {
+      width: 90%;
+      height: 90%;
+      border-radius: 50%;
+      
+      animation: rotate 5s linear infinite;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+.curved {
+  position: relative;
+  width: 100%;
+  height: 6vh;
+  overflow: hidden;
+  z-index: 4;
+  top: 7vh; /*Positioning After the top-nav */
+}
+
+.curved svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.curved path {
+  fill-opacity: 0.95;
+}
+
+
+
+
+/* Scrollable Content (Home) */
+.scrollable-content {
+  height: 100%; /* Adjusted height */
+  width: 97%;
+  box-sizing: border-box;
+  overflow-y: auto; /* Important: Enable vertical scrolling within this section */
+  padding: 10px 2px 5px 5px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  background: transparent;
+  position: relative;
+  z-index: 2;
+  top: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollable-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* Content Section */
+.content-section {
+  
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.content-section.landing {
+  transform: translateY(0);
+  animation: land 0.5s forwards;
+}
+
+@keyframes land {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Neumorphic Card */
+.neumorphic-card {
+  background: #f0f4f8;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #fff;
+  text-align: center;
+}
+
+.neumorphic-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Hidden Section Styles */
+.hidden-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99.99%;
+
+  max-width: 99.9%;
+  box-sizing: border-box;
+    height: 100vh;
+  /* Full viewport height */
+  z-index: 4;
+  display: none;
+  /* Initially hidden */
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  /* Prevent scrollbar on section */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.hidden-section.active {
+  display: flex;
+  /* Show section */
+  opacity: 1;
+  /* Fade in */
+  transform: translateX(0);
+  /* Slide in */
+}
+
+/* Section Top Navigation */
+.section-top-nav {
+  height: 7vh;
+  /* Neumorphic White */
+  box-shadow: 5px 5px 10px #d1d9e6,
+    /* Neumorphic shadow */
+    -5px -5px 10px #fff;
+  box-sizing: border-box;
+  align-items: center;
+  max-width: 99.5%;
+  position: relative;
+  z-index: 5;
+ 
+  margin: 0 auto;
+      background: linear-gradient(220deg, #800000, #FF4500);
+      display: flex;            /* Use flexbox for vertical layout */
+      
+      justify-content: center; /* Center content horizontally */
+  align-items: center;     /* Center content vertically */
+      border-radius: 10px;
+     box-shadow: 
+    /* Neumorphic inner shadow */
+    inset 1px -3px 3px 1px #FEA25E;
+    
+      padding: 0 20px;
+      font-weight: bold;
+      color: #4CAF50;
+      border-bottom: 1px solid rgba(255, 255, 255, .8);
+      width: 99.5%;
+    
+      
+}
+.leftt{
+  width: 90%;
+  white-space: nowrap;
+}
+.section-top-nav .home-icon {
+  cursor: pointer;
+  
+}
+.rightt{
+
+  margin-left: 50%;
+  width: 100%;
+  max-width: 25%;
+  white-space: nowrap;
+  
+}
+.faaa{
+  height: auto;
+  width: 100%;
+ max-width: 18%;
+ 
+}
+
+.welcome-m{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FFFFFF; /* or color: white; */
+  text-shadow: 0 0 10px springgreen; /* optional */
+}
+/* Section Scrollable Content */
+.section-scrollable-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  width: 99.5%;
+  max-width: 99.5%;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  padding:12px 30px;
+        border: 4px solid #C02300;
+      
+        appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: inset 1px 3px 5px #800000, inset -1px -1px 5px #FF4500;
+        background-color: #fff;
+  /* Dark Red-Maroon to Reddish-Orange */
+  /* Lighter Orange shadow */
+  
+  position: relative;
+  z-index: 6;
+}
+
+.section-scrollable-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* Content Section (Inside Hidden Sections) */
+.section-scrollable-content .content-section {
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.section-scrollable-content .content-section.landing {
+  transform: translateY(0);
+  animation: land 0.5s forwards;
+}
+
+@keyframes land {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media ( min-width: 320px; ){
+
+}
+
+@media ( max-width: 480px; ){
+
+}
+
+@media ( min-width: 481px; ){
+
+}
+
+@media ( max-width: 768px; ){
+
+}
+
+@media ( min-width: 769px; ){
+
+}
+
+@media ( max-width: 1279px; ){
+
+}
+
+@media ( min-width: 1280px; ){
+
+}
+
+
+
+
+  </style>
+  <link rel="stylesheet" href="redbottomnav (2).css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+ 
+  <div class="main">
+    <div class="background">
+      <img src="swaying.gif" alt="Animated Palm Tree" class="content-background">
+    </div>
+
+  <nav class="top-nav">
+    <div class="nav-top">
+     <span class="topSpan"> V<span class="custom-o">
+        <div class="o-inner">
+          <img src="O.jpg" alt="Rotating Image">
+        </div>
+      </span>LPALM</span>
+    </div>
+    <div class="nav-bottom">
+      <span class="bottomSpan"> <h3>Company Ltd.</h3></span>
+    </div>
+  </nav>
+
+    <div class="curved">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="myGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#800000" />
+            <stop offset="100%" stop-color="#FF4500" />
+          </linearGradient>
+        </defs>
+        <path fill="url(#myGradient)"
+          d="M0,96L21.8,117.3C43.6,139,87,181,131,186.7C174.5,192,218,160,262,170.7C305.5,181,349,235,393,266.7C436.4,299,480,309,524,293.3C567.3,277,611,235,655,186.7C698.2,139,742,85,785,106.7C829.1,128,873,224,916,250.7C960,277,1004,235,1047,202.7C1090.9,171,1135,149,1178,149.3C1221.8,149,1265,171,1309,186.7C1352.7,203,1396,213,1418,218.7L1440,224L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z">
+        </path>
+      </svg>
+    </div>
+
+    <div class="glass">
+      <div class="scrollable-content" id="scrollableContent">
+        <section class="content-section">
+          <h2 class="welcome-m">Welcome to Volpalm Platform.</h2>
+          <p>Discover the beauty and tranquility of our island paradise.</p>
+          <div class="neumorphic-card">
+            <img src="card_image.jpg" alt="Card Image">
+            <p>Explore the stunning beaches and crystal-clear waters.</p>
+          </div>
+          <p>Additional content can be added here, and the scrollable area will adjust accordingly.</p>
+        </section>
+        <section class="content-section">
+          <h2>Our Services</h2>
+          <ul>
+          <li>Guided Tours</li>
+            <li>Beachfront Accommodations</li>
+            <li>Local Cuisine</li>
+          </ul>
+        </section>
+        <section class="content-section">
+          <h2>Our Services</h2>
+          <ul>
+            <li>Guided Tours</li>
+            <li>Beachfront Accommodations</li>
+            <li>Local Cuisine</li>
+          </ul>
+        </section>
+        <section class="content-section">
+          <h2>Our Services</h2>
+          <ul>
+            <li>Guided Tours</li>
+            <li>Beachfront Accommodations</li>
+            <li>Local Cuisine</li>
+          </ul>
+        </section>
+        <section class="content-section">
+          <h2>Contact Us</h2>
+          <p>Feel free to reach out to us with any questions or inquiries.</p>
+        </section>
+      </div>
+    </div>
+
+ <nav class="menu bottom-nav inner-shadow">
+        <input class="menu_input" id="btn1" name="menu" type="radio">
+        <label class="menu_label" for="btn1">
+            <div class="fa"><img src="home.png" alt="home.png" class="faa"></div>
+            <div class="menu_text">
+              <a href="#" data-section="menu">menu</a>
+            </div>
+        </label>
+
+        <input class="menu_input" id="btn2" name="menu" type="radio">
+        <label class="menu_label" for="btn2">
+            <div class="fa">
+              <img src="history.jpg" alt="history.jpg" class="faa">
+            </div>
+            <div class="menu_text">
+              <a href="#" data-section="search" >users</a>
+            </div>
+        </label>
+
+        <input class="menu_input" id="btn3" name="menu" type="radio">
+        <label class="menu_label" for="btn3">
+            <div class="fa"><img sizes="gallery.png" srcset="gallery.png" src="gallery.png" alt="gallery.png" class="faa"></div>
+            <div class="menu_text">
+              <a href="#" data-section="envelope">chat</a>
+            </div>
+        </label>
+
+        <input class="menu_input" id="btn4" name="menu" type="radio">
+        <label class="menu_label" for="btn4">
+            <div class="fa"><img class="faa" src="MW.jpg" alt="MW.jpg"></div>
+            <div class="menu_text">
+              <a href="#" data-section="cog"> edit</a>
+            </div>
+        </label>
+    </nav>
+  </div>
+
+
+    <!-- Hidden Sections -->
+    <!-- Search Section -->
+    <div class="hidden-section" id="search-section">
+      <nav class="section-top-nav">
+        <div class="leftt">
+        <div>Search</div>
+        <div class="nav-middle">Volpalm - Search</div>
+        </div>
+        
+        <div class="home-icon rightt"> <img src="home.png" alt="home.png" class="faaa"></div>
+      </nav>
+      <div class="section-scrollable-content">
+        <section class="content-section">
+          <h2>Search Content</h2>
+          <p>This is the content for the search section.</p>
+        </section>
+      </div>
+    </div>
+
+    <!-- Envelope Section -->
+    <div class="hidden-section" id="envelope-section">
+      <nav class="section-top-nav">
+        <div class="leftt">
+        <div>Envelope</div>
+        <div class="nav-middle">Volpalm - Envelope</div>
+        </div>
+        <div class="home-icon rightt"><img src="home.png" alt="home.png" class="faaa"></div>
+      </nav>
+      <div class="section-scrollable-content">
+        <section class="content-section">
+          <h2>Envelope Content</h2>
+          <p>This is the content for the envelope section.</p>
+        </section>
+      </div>
+    </div>
+
+    <!-- Cog Section -->
+    <div class="hidden-section" id="cog-section">
+      <nav class="section-top-nav">
+        <div class="leftt">
+        <div>Cog</div>
+        <div class="nav-middle">Volpalm - Cog</div>
+        </div>
+<div class="home-icon rightt"><img src="home.png" alt="home.png" class="faaa"></div>
+      </nav>
+      <div class="section-scrollable-content">
+        <section class="content-section">
+          <h2>Cog Content</h2>
+          <p>This is the content for the cog section.</p>
+        </section>
+      </div>
+    </div>
+
+<script>
+      const contentData = [
+      {
+        type: "content-section landing",
+        title: "Welcome to Volpalm",
+        description: "Discover the beauty and tranquility of our island paradise.",
+        image: "card_image.jpg"
+      },
+      {
+        type: "neumorphic-card",
+        title: "About Us",
+        description: "VolPalm is dedicated to providing the best island experience."
+      },
+      {
+        type: "neumorphic-card",
+        title: "Our Services",
+        description: "We offer guided tours, beach accommodations, and local cuisine."
+      },
+      {
+        type: "content-section",
+        title: "Contact Us",
+        description: "Feel free to reach out to us with any questions or inquiries."
+      },
+      {
+        type: "content-section",
+        title: "Our Services",
+        description: "Feel free to reach out to us with any questions or inquiries."
+      },
+      {
+        type: "content-section",
+        title: "Our Services",
+        description: "Feel free to reach out to us with any questions or inquiries."
+      },
+      {
+        type: "content-section",
+        title: "Our Services",
+        description: "Feel free to reach out to us with any questions or inquiries."
+      }
+    ];
+
+    const scrollableContent = document.getElementById("scrollableContent");
+
+    contentData.forEach(item => {
+      const card = document.createElement("section");
+      card.className = item.type;
+
+      const title = document.createElement("h2");
+      title.textContent = item.title;
+
+      const description = document.createElement("p");
+      description.textContent = item.description;
+
+      card.appendChild(title);
+      if (item.image) {
+        const img = document.createElement("img");
+        img.src = item.image;
+        img.alt = "Card Image";
+        card.appendChild(img);
+      }
+      card.appendChild(description);
+      scrollableContent.appendChild(card);
+    });
+
+    const bottomNavLinks = document.querySelectorAll('.bottom-nav a');
+    const hiddenSections = document.querySelectorAll('.hidden-section');
+    const glassContainer = document.querySelector('.glass');
+    const mainElement = document.querySelector('.main');  // Get the main element
+
+    bottomNavLinks.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        const section = this.dataset.section;
+
+        // Hide all sections
+        hiddenSections.forEach(s => s.classList.remove('active'));
+                // Show selected section
+        if (section !== "home") {
+          const selectedSection = document.getElementById(`${section}-section`);
+          selectedSection.classList.add('active');
+
+          // Apply landing effect to content sections
+          const contentSections = selectedSection.querySelectorAll('.content-section');
+          contentSections.forEach((contentSection, index) => {
+            setTimeout(() => {
+              contentSection.classList.add('landing');
+            }, index * 200); // Delay each section
+          });
+
+           mainElement.classList.add('active');  // Add the active class to main
+          glassContainer.style.transform = 'scale(0.9)'; /*Scale down the Glass Container when switching to other pages */
+
+        } else {
+          glassContainer.style.transform = 'scale(1)';
+          mainElement.classList.remove('active'); //Remove it when going back to the main.
+        }
+      });
+    });
+
+    // Home Icon functionality
+    document.querySelectorAll('.home-icon').forEach(icon => {
+      icon.addEventListener('click', function () {
+        hiddenSections.forEach(s => {
+          s.classList.remove('active');
+
+          // Remove landing effect when hiding sections
+          const contentSections = s.querySelectorAll('.content-section');
+          contentSections.forEach(contentSection => {
+            contentSection.classList.remove('landing');
+          });
+        });
+          mainElement.classList.remove('active');  // Also remove the active class when going back to home.
+        glassContainer.style.transform = 'scale(1)';
+
+      });
+    });
+
+    const scrollableContentElement = document.querySelector('.scrollable-content');
+
+    scrollableContentElement.addEventListener('scroll', () => {
+      const sections = document.querySelectorAll('.content-section');
+      sections.forEach(section => {
+        const rect = section.getBoundingClientRect();
+        const isVisible = (rect.top >= 0) && (rect.bottom <= window.innerHeight);
+
+        if (isVisible) {
+          section.classList.add('landing');
+        } else {
+          section.classList.remove('landing');
+        }
+      });
+    });
+</script>
+</body>
+
+</html>
