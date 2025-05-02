@@ -1,0 +1,402 @@
+
+/* ==========================================================================
+   Media Queries - Comprehensive Responsive Adjustments
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Mobile Devices: 320px - 480px
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  body {
+    font-size: 13px; /* Even smaller base font size */
+  }
+
+  .topSpan {
+    font-size: 1.4rem; /* Further reduced heading size */
+  }
+
+  .bottomSpan {
+    font-size: 1.0rem; /* Further reduced subheading size */
+  }
+
+  .custom-o {
+    width: 2.0rem; /* Smaller "O" */
+    height: 1.9rem;
+    border: 0.15rem solid #4CAF50;
+  }
+
+  .top-nav {
+    height: 4vh; /* Even smaller top navigation */
+    padding: 0.1% 0 0 0;
+  }
+
+  .nav-top {
+    height: 45%; /* Adjust heights of top/bottom */
+    margin-right: 0; /* Remove side margins */
+  }
+
+  .nav-bottom {
+    height: 55%;
+    margin-left: 0;
+  }
+
+  .curved {
+    height: 2.5vh; /* Even smaller curve */
+    top: 4vh;
+  }
+
+  .glass {
+    top: 4vh; /* Align with the curved top */
+    height: calc(100vh - 1vh - 7vh - 4vh);
+    border-radius: 12px;
+  }
+
+  .glass::after {
+    height: 5px;
+    box-shadow: inset 0 -5px 3px #FF4500;
+  }
+
+  .scrollable-content {
+    padding: 2px; /* Very tight content spacing */
+    font-size: 0.8rem;
+  }
+
+  .content-section {
+    padding: 6px; /* Reduced content section spacing */
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+  }
+
+  .neumorphic-card {
+    padding: 6px;
+    margin: 6px auto;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 4px #d1d9e6, -1.5px -1.5px 4px #fff;
+  }
+
+  .menu_label {
+    font-size: 0.8em; /* Minimized menu label */
+    padding: 0px;
+  }
+
+  .fa, .faa {
+    max-width: 20%; /* Icons take even less space */
+    max-height: 3vh;
+  }
+
+  .menu_text {
+    font-size: 0.5rem; /* Tiny menu text */
+  }
+
+  .section-top-nav {
+    height: 3vh; /* Ultra compact section navigation */
+    font-size: 0.8rem;
+  }
+
+  .rightt {
+    margin-left: 25%;
+  }
+
+  .faaa {
+    max-width: 18%;
+    max-height: 2.5vh;
+  }
+
+  .section-scrollable-content {
+    padding: 4px 8px; /* Minimized padding */
+    border-width: 1.5px;
+    border-radius: 8px;
+  }
+
+  /* Fine-tuning for specific mobile breakpoints */
+  @media (max-width: 320px) {
+    body {
+      overflow-x: hidden; /* Prevent horizontal overflow */
+    }
+
+    .welcome-m {
+      font-size: 0.9rem;
+    }
+
+    .main {
+      overflow-x: hidden;
+    }
+  }
+
+  @media (min-width: 360px) and (max-width: 400px) {
+    .topSpan {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (min-width: 440px) and (max-width: 480px) {
+    .topSpan {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   iPads, Tablets: 481px - 768px (Slightly increased sizes)
+   -------------------------------------------------------------------------- */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .topSpan {
+    font-size: 1.6rem;
+  }
+
+  .bottomSpan {
+    font-size: 1.2rem;
+  }
+
+  .custom-o {
+    width: 2.5rem;
+    height: 2.4rem;
+  }
+
+  .top-nav {
+    height: 5vh;
+  }
+
+  .curved {
+    height: 4vh;
+    top: 5vh;
+  }
+
+  .glass {
+    top: 5vh;
+    height: calc(100vh - 1vh - 7vh - 5vh);
+    border-radius: 15px;
+  }
+
+  .glass::after {
+    height: 6px;
+    box-shadow: inset 0 -6px 4px #FF4500;
+  }
+
+  .scrollable-content {
+    font-size: 0.9rem;
+  }
+
+  .content-section {
+    font-size: 1.1rem;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+
+  .neumorphic-card {
+    box-shadow: 2.5px 2.5px 6px #d1d9e6, -2.5px -2.5px 6px #fff;
+  }
+
+  .menu_label {
+    font-size: 1.1em;
+  }
+
+  .fa, .faa {
+    max-width: 28%;
+    max-height: 4vh;
+  }
+
+  .menu_text {
+    font-size: 0.65rem;
+  }
+
+  /* Fine-tuning for specific tablet breakpoints */
+  @media (min-width: 520px) and (max-width: 560px) {
+    .topSpan {
+      font-size: 1.6rem;
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 660px) {
+    .topSpan {
+      font-size: 1.7rem;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 768px) {
+    .topSpan {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Small Screens, Laptops: 769px - 1024px
+   -------------------------------------------------------------------------- */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+  }
+
+  .topSpan {
+    font-size: 1.8rem;
+  }
+
+  .bottomSpan {
+    font-size: 1.4rem;
+  }
+
+  .custom-o {
+    width: 2.8rem;
+    height: 2.7rem;
+  }
+
+  .top-nav {
+    height: 6vh;
+  }
+
+  .curved {
+    height: 4.5vh;
+    top: 6vh;
+  }
+
+  .glass {
+    top: 6vh;
+    height: calc(100vh - 1vh - 7vh - 6vh);
+    border-radius: 18px;
+  }
+
+  .glass::after {
+    height: 7px;
+    box-shadow: inset 0 -7px 4px #FF4500;
+  }
+
+  .scrollable-content {
+    font-size: 0.95rem;
+  }
+
+  .content-section {
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+    padding: 10px;
+  }
+
+  .neumorphic-card {
+    box-shadow: 3px 3px 7px #d1d9e6, -3px -3px 7px #fff;
+  }
+
+  .menu_label {
+    font-size: 1.25em;
+  }
+
+  .fa, .faa {
+    max-width: 30%;
+    max-height: 4.5vh;
+  }
+
+  .menu_text {
+    font-size: 0.7rem;
+  }
+
+  /* Fine-tuning for specific laptop breakpoints */
+  @media (min-width: 800px) and (max-width: 900px) {
+    .topSpan {
+      font-size: 1.9rem;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Desktops, Large Screens: 1025px - 1280px
+   -------------------------------------------------------------------------- */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    font-size: 16px;
+  }
+
+  .topSpan {
+    font-size: 2.0rem;
+  }
+
+  .bottomSpan {
+    font-size: 1.6rem;
+  }
+
+  .custom-o {
+    width: 3.0rem;
+    height: 2.9rem;
+  }
+
+  .scrollable-content {
+    font-size: 1.0rem;
+  }
+
+  .content-section {
+    font-size: 1.4rem;
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+
+  .neumorphic-card {
+    box-shadow: 4px 4px 8px #d1d9e6, -4px -4px 8px #fff;
+  }
+
+  .menu_label {
+    font-size: 1.5em;
+  }
+
+  .fa, .faa {
+    max-width: 33%;
+    max-height: 5vh;
+  }
+
+  .menu_text {
+    font-size: 0.75rem;
+  }
+
+  /* Fine-tuning for specific desktop breakpoints */
+  @media (min-width: 1100px) and (max-width: 1200px) {
+    .topSpan {
+      font-size: 2.1rem;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Extra Large Screens, TV: 1281px and More
+   -------------------------------------------------------------------------- */
+@media (min-width: 1281px) {
+  body {
+    font-size: 17px;
+  }
+
+  .topSpan {
+    font-size: 2.2rem;
+  }
+
+  .bottomSpan {
+    font-size: 1.8rem;
+  }
+
+  .custom-o {
+    width: 3.2rem;
+    height: 3.1rem;
+  }
+
+  .scrollable-content {
+    font-size: 1.1rem;
+  }
+
+  .content-section {
+    font-size: 1.6rem;
+    padding: 15px;
+    margin-bottom: 25px;
+  }
+
+  .neumorphic-card {
+    max-width: 600px;
+    box-shadow: 5px 5px 10px #d1d9e6, -5px -5px 10px #fff;
+  }
+
+  /* Limit content width for large screens */
+  .scrollable-content,
+  .section-scrollable-content {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
