@@ -1,0 +1,74 @@
+
+/* ==========================================================================
+   Media Queries - Comprehensive Responsive Adjustments
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Mobile Devices: 320px - 480px
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  
+
+  /* Fine-tuning for specific mobile breakpoints */
+  @media (max-width: 320px) {
+    
+  }
+
+  @media (min-width: 360px) and (max-width: 400px) {
+    
+  }
+
+  @media (min-width: 440px) and (max-width: 480px) {
+   
+  }
+}
+
+/* --------------------------------------------------------------------------
+   iPads, Tablets: 481px - 768px (Slightly increased sizes)
+   -------------------------------------------------------------------------- */
+@media (min-width: 481px) and (max-width: 768px) {
+
+
+  /* Fine-tuning for specific tablet breakpoints */
+  @media (min-width: 520px) and (max-width: 560px) {
+   
+  }
+
+  @media (min-width: 600px) and (max-width: 660px) {
+    
+  }
+
+  @media (min-width: 700px) and (max-width: 768px) {
+   
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Small Screens, Laptops: 769px - 1024px
+   -------------------------------------------------------------------------- */
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+
+  /* Fine-tuning for specific laptop breakpoints */
+  @media (min-width: 800px) and (max-width: 900px) {
+    
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Desktops, Large Screens: 1025px - 1280px
+   -------------------------------------------------------------------------- */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* Fine-tuning for specific desktop breakpoints */
+  @media (min-width: 1100px) and (max-width: 1200px) {
+    
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Extra Large Screens, TV: 1281px and More
+   -------------------------------------------------------------------------- */
+@media (min-width: 1281px) {
+ 
+}
