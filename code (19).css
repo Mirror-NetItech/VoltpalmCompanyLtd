@@ -19,7 +19,15 @@
   }
 
   @media (min-width: 440px) and (max-width: 480px) {
-   
+     .topSpan {
+    font-size: 2rem;
+}
+   .custom-o{
+      top: 1px;
+    width: 3rem;
+    margin: 0;
+    height: 3rem;
+   } 
   }
 }
 
