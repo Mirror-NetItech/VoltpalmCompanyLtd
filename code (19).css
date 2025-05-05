@@ -18,16 +18,34 @@
     
   }
 
-  @media (min-width: 440px) and (max-width: 480px) {
-     .topSpan {
+   @media (min-width: 440px) and (max-width: 480px) {
+    .nav-bottom{
+      margin: 0 0 3% 50%;
+      height: 36%;
+    }
+    .topSpan {
     font-size: 2rem;
+}
+    .nav-top{
+      margin: 0 26% 0 0;
+      padding-top: 2px;
+    }
+    .bottomSpan {
+    font-weight: bold;
+    font-size: 1.8rem;
+    white-space: nowrap;
 }
    .custom-o{
       top: 1px;
-    width: 3rem;
-    margin: 0;
-    height: 3rem;
+      width: 2.6rem;
+      margin: 0;
+      height: 2.6rem;
    } 
+    .faaa {
+    height: auto;
+    width: 100%;
+    max-width: 45%;
+}
   }
 }
 
