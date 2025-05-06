@@ -44,19 +44,14 @@
       margin: 0;
       height: 2.6rem;
    } 
-      #faa{
-         max-width: 70%;
-      }
+     
    .faa{
           max-width: 100%;
     }
     .faaa {
     height: auto;
     width: 100%;
-    max-width: 45%;
-
-   
-  }
+    max-width: 45%;}
 
    @media (min-width: 421px) and (max-width: 480px) {
     .nav-bottom{
