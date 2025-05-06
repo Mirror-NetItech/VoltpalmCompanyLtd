@@ -16,11 +16,11 @@
   
 
   /* Fine-tuning for specific mobile breakpoints */
-  @media (max-width: 320px) {
-    
-  }
 
-  @media (min-width: 321px) and (max-width: 420px) {
+    
+
+
+  @media (min-width: 320px) and (max-width: 420px) {
    
     .nav-bottom{
       margin: 0 0 3% 50%;
