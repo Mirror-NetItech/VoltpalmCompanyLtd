@@ -7,10 +7,10 @@
    Mobile Devices: 320px - 480px
    -------------------------------------------------------------------------- */
 @media (max-height: 780px){
-  .glass{
+  /*.glass{
     top: 9vh;
     height: calc(100vh - 3vh - 6vh - 7vh );
-  }
+  }*/
 }
 @media (max-width: 480px) {
   
