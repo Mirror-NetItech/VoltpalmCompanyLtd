@@ -44,6 +44,12 @@
       margin: 0;
       height: 2.6rem;
    } 
+      #faa{
+         max-width: 70%;
+      }
+   .faa{
+          max-width: 100%;
+    }
     .faaa {
     height: auto;
     width: 100%;
