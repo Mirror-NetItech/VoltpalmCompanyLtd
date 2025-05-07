@@ -17,7 +17,9 @@
 
   /* Fine-tuning for specific mobile breakpoints */
 
-    
+    .top-nav{
+       padding-top: 10px;
+    }
 
 
   @media (min-width: 320px) and (max-width: 420px) {
