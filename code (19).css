@@ -46,14 +46,13 @@
    } 
      
    .faa{
-          max-width: 70%;
+          max-width: 80%;
     }
      .faa1{
         width: 100%;
         max-width: 60%;
         max-height: 5.5vh;
-        height: auto;
-        margin: auto 0;
+        
      }
     .faaa {
     height: auto;
