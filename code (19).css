@@ -18,7 +18,7 @@
   /* Fine-tuning for specific mobile breakpoints */
 
     .top-nav{
-       padding-top: 10px;
+       padding-top: 5px;
     }
 
 
@@ -33,7 +33,7 @@
 }
     .nav-top{
       margin: 0 36% 0 0;
-      padding-top: 5px;
+      padding-top: 2px;
     }
     .bottomSpan {
     font-weight: bold;
@@ -71,7 +71,7 @@
 }
     .nav-top{
       margin: 0 26% 0 0;
-      padding-top: 5px;
+      padding-top: 2px;
     }
     .bottomSpan {
     font-weight: bold;
