@@ -58,7 +58,7 @@
     height: auto;
     width: 100%;
     max-width: 45%;}
-
+  }
    @media (min-width: 421px) and (max-width: 480px) {
     .nav-bottom{
       margin: 0;
@@ -87,7 +87,7 @@
     width: 100%;
     max-width: 45%;
 }
-  }
+  
 }
 
 /* --------------------------------------------------------------------------
