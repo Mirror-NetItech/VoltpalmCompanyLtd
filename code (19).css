@@ -63,7 +63,7 @@
 
    @media (min-width: 421px) and (max-width: 480px) {
     .nav-bottom{
-      margin: 0 0 36% 0%;
+      margin: 0 0 36% 50%;
       height: 36%;
     }
     .topSpan {
@@ -80,9 +80,9 @@
 }
    .custom-o{
       top: 1px;
-      width: 2.6rem;
+      width: 2.3rem;
       margin: 0;
-      height: 2.6rem;
+      height: 2.3rem;
    } 
     .faaa {
     height: auto;
