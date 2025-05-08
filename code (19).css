@@ -12,9 +12,26 @@
     height: calc(100vh - 3vh - 6vh - 7vh );
   }
 }
-@media (device-height: 568px){
+@media (max-height: 568px){
  .top-nav{
-    height: 10vh;}  
+    height: 8vh;} 
+   .topSpan {
+    font-size: 1.5rem;
+}
+   .bottomSpan {
+    
+    font-size: 1.2rem;
+    
+}
+   .nav-bottom{
+      margin: 0 0 3% 55%;
+    }
+    .custom-o{
+      top: 8.8px;
+      width: 2rem;
+      margin: auto 0;
+      height: 2rem;
+   } 
 }
 @media (max-width: 480px) {
   
