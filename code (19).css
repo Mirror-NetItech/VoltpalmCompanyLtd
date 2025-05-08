@@ -12,6 +12,9 @@
     height: calc(100vh - 3vh - 6vh - 7vh );
   }
 }
+@media (height: 568px){
+ .top-nav{height: 8vh;}  
+}
 @media (max-width: 480px) {
   
 
