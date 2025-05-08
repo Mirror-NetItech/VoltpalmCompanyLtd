@@ -18,9 +18,47 @@
   /* Fine-tuning for specific mobile breakpoints */
 
     
+@media (max-width: 360px){
+ .nav-bottom{
+      margin: 0 0 3% 50%;
+      height: 40%;
+    }
+    .topSpan {
+    font-size: 2rem;
+}
+    .nav-top{
+      margin: 0 36% 0 0;
+      padding-top: 2px;
+    }
+    .bottomSpan {
+    font-weight: bold;
+    font-size: 1.8rem;
+    white-space: nowrap;
+}
+   .custom-o{
+      top: 12px;
+      
+      width: 3rem;
+      margin: auto 0;
+      height: 3rem;
+   } 
+     
+   .faa{
+          max-width: 90%;
+    }
+     .faa1{
+        width: 100%;
+        max-width: 60%;
+        max-height: 5.5vh;
+        
+     }
+    .faaa {
+    height: auto;
+    width: 100%;
+    max-width: 45%;}  
+}
 
-
-  @media (min-width: 320px) and (max-width: 420px) {
+  @media (min-width: 361px) and (max-width: 420px) {
    
     .nav-bottom{
       margin: 0 0 3% 50%;
