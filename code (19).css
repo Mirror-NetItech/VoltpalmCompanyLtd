@@ -147,6 +147,9 @@
       margin: auto 0;
       height: 2rem;
    } 
+   .bottom-nav{
+      height: 8.5vh;
+   }
 }
 /* --------------------------------------------------------------------------
    iPads, Tablets: 481px - 768px (Slightly increased sizes)
