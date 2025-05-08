@@ -136,12 +136,10 @@
     font-size: 1.4rem;
 }
    .bottomSpan {
-    
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem;  
 }
    .nav-bottom{
-      margin: 0 0 3% 55%;
+      margin: 0 0 3% 50%;
     }
     .custom-o{
       top: 3px;
