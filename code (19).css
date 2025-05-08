@@ -39,9 +39,9 @@
     white-space: nowrap;
 }
    .custom-o{
-      top: 1%;
+      top: 2%;
       width: 3rem;
-      margin: 0;
+      margin: aut0 0;
       height: 3rem;
    } 
      
@@ -79,7 +79,7 @@
    .custom-o{
       top: 3px;
       width: 3rem;
-      margin: 0;
+      margin: auto 0;
       height: 3rem;
    } 
     .faaa {
