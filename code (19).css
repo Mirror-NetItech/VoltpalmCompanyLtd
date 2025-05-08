@@ -13,7 +13,8 @@
   }
 }
 @media (height: 568px){
- .top-nav{height: 8vh;}  
+ .top-nav{
+    height: 10vh;}  
 }
 @media (max-width: 480px) {
   
