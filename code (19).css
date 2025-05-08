@@ -131,7 +131,7 @@
 }
 @media (max-width: 320px) and (max-height: 580px){
  .top-nav{
-    height: 8vh;} 
+    height: 7vh;} 
    .topSpan {
     font-size: 1.4rem;
 }
@@ -144,7 +144,7 @@
       margin: 0 0 3% 55%;
     }
     .custom-o{
-      top: 8.8px;
+      top: 5px;
       width: 2rem;
       margin: auto 0;
       height: 2rem;
