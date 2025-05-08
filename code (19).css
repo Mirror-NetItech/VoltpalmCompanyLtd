@@ -12,7 +12,7 @@
     height: calc(100vh - 3vh - 6vh - 7vh );
   }
 }
-@media (height: 568px){
+@media (device-height: 568px){
  .top-nav{
     height: 10vh;}  
 }
