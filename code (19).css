@@ -39,9 +39,9 @@
     white-space: nowrap;
 }
    .custom-o{
-      top: 5%;
+      top: 10px;
       width: 3rem;
-      margin: aut0 0;
+      margin: auto 0;
       height: 3rem;
    } 
      
