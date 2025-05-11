@@ -106,7 +106,7 @@
       height: 36%;
     }
       .glass{
-         top: 6vh;
+         top: 8vh;
     height: calc(100vh - 4vh - 6vh - 7vh );
       }
     .topSpan {
