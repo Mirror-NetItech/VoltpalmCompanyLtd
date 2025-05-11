@@ -149,8 +149,8 @@
       height: 2rem;
    } 
    .glass{
-    top: 10vh;
-    height: calc(100vh - 7vh - 6vh - 7vh );
+    top: 8.5vh;
+    height: calc(100vh - 4vh - 6vh - 7vh );
      
    }
    .bottom-nav{
