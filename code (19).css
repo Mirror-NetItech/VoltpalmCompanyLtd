@@ -152,7 +152,7 @@
    } 
    .glass{
     top: 8.5vh;
-    height: calc(100vh - 5vh - 6vh - 7vh );
+    height: calc(100vh - 4vh - 6vh - 7vh );
      
    }
 
@@ -166,7 +166,7 @@
       height: auto;
    }
    .curved{
-      top: 7.5vh;
+      top: 8vh;
    } 
 }
 /* --------------------------------------------------------------------------
