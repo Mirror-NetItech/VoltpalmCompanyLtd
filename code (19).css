@@ -149,7 +149,7 @@
       height: 2rem;
    } 
    .glass{
-    top: 5vh;
+    top: 10vh;
     height: calc(100vh - 7vh - 6vh - 7vh );
      
    }
