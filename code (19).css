@@ -150,15 +150,18 @@
    } 
    .glass{
     top: 8.5vh;
-    height: calc(100vh - 6.5vh - 6vh - 7vh );
+    height: calc(100vh - 6vh - 6vh - 7vh );
      
    }
+
    
    .bottom-nav{
       height: 10.5vh;
    }
    .faa{
+      width: 50px;
           max-width: 100%;
+      height: auto;
    }
    .curved{
       top: 8.5vh;
