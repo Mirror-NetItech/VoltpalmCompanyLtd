@@ -148,6 +148,11 @@
       margin: auto 0;
       height: 2rem;
    } 
+   .glass{
+    top: 5vh;
+    height: calc(100vh - 7vh - 6vh - 7vh );
+     
+   }
    .bottom-nav{
       height: 9vh;
    }
