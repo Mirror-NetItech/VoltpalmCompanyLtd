@@ -67,7 +67,7 @@
       height: 40%;
     }
     .topSpan {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
       .glass{
          top: 9vh;
@@ -82,7 +82,7 @@
     }
     .bottomSpan {
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     white-space: nowrap;
 }
    .custom-o{
