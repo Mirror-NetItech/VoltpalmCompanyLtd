@@ -73,6 +73,9 @@
          top: 9vh;
     height: calc(100vh - 3vh - 6vh - 7vh );
       }
+     .top-nav{ padding-top: 3px;
+             
+             }
     .nav-top{
       margin: 0 36% 0 0;
       padding-top: 3px;
@@ -85,9 +88,9 @@
    .custom-o{
       top: 8px;
       
-      width: 2.8rem;
+      width: 2.6rem;
       margin: auto 0;
-      height: 2.8rem;
+      height: 2.6rem;
    } 
      
    .faa{
