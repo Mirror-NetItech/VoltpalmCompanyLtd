@@ -105,6 +105,10 @@
       margin: 0 3% 0 50%;
       height: 36%;
     }
+      .glass{
+         top: 6vh;
+    height: calc(100vh - 4vh - 6vh - 7vh );
+      }
     .topSpan {
     font-size: 2rem;
 }
