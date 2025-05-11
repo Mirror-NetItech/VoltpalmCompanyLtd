@@ -187,7 +187,7 @@
 /* --------------------------------------------------------------------------
    iPads, Tablets: 581px - 768px (Slightly increased sizes)
    -------------------------------------------------------------------------- */
-@media (min-width: 581px) and (max-width: 768px) {
+@media (min-width: 581px) and (max-width: 799px) {
  .top-nav{
     height: 8.5vh;
     padding-top: 3px;
@@ -199,7 +199,7 @@
     font-size: 1.2rem;  
 }
    .nav-bottom{
-      margin: 0 0 3% 60%;
+      margin: 0 0 3% 80%;
     }
     .custom-o{
       top: 4px;
