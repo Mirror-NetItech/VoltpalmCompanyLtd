@@ -193,7 +193,10 @@
     .topSpan {
     font-size: 2.35rem;
 }
-     
+     .menu_text {
+  padding-left: 0.3rem; 
+  font-size: 2.8rem; 
+}
      .top-nav{ padding-top: 3px;
              
              }
