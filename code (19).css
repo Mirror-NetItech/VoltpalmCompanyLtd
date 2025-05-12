@@ -187,11 +187,11 @@
    -------------------------------------------------------------------------- */
 @media (min-width: 581px) and (max-width: 799px) {
  .nav-bottom{
-      margin: 0 0 3% 50%;
+      margin: 0 0 3% 30%;
       height: 40%;
     }
     .topSpan {
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
      
      .top-nav{ padding-top: 3px;
@@ -203,15 +203,15 @@
     }
     .bottomSpan {
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2rem;
     white-space: nowrap;
 }
    .custom-o{
       top: 8px;
       
-      width: 3rem;
+      width: 3.2rem;
       margin: auto 0;
-      height: 3rem;
+      height: 3.2rem;
    } 
      
    
