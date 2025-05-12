@@ -10,7 +10,7 @@
   
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   .glass{
     
     height: calc(100vh - 7vh - 6vh - 7vh );
