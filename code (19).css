@@ -181,6 +181,7 @@
       top: 8vh;
    } 
 }
+}
 /* --------------------------------------------------------------------------
    iPads, Tablets: 581px - 768px (Slightly increased sizes)
    -------------------------------------------------------------------------- */
@@ -202,7 +203,7 @@
       top: 4px;
       width: 2rem;
       margin: auto 0;
-      height: 2rem;
+      height: 2rem;}
 
   /* Fine-tuning for specific tablet breakpoints */
   @media (min-width: 581px) and (max-width: 660px) {
