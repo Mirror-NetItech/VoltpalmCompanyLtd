@@ -13,28 +13,7 @@
     height: calc(100vh - 7vh - 6vh - 7vh );
      
   }
- .faa1, .faa{
-       width: 100%
-        max-width: 38%;
-        max-height: 4.5vh;
-        height: auto;
-        transition: all 0.3s ease;
-        display: inline;
-        padding-top: 0.2rem;
-        margin: auto 0;
-      }
-
-  
-      .menu_text {
-        font-size: 1.5rem;
-        padding-left: 0.5rem;
-        white-space: nowrap;
-        opacity: 0;
-        transition: opacity 0.3s;
-        margin-top: auto;
-        margin-bottom: auto;
-       
-      }
+ 
   /* Fine-tuning for specific mobile breakpoints */
 
     
@@ -207,12 +186,6 @@
   
       .menu_text {
         font-size: 0.8rem;
-        padding-left: 0.5rem;
-        white-space: nowrap;
-        opacity: 0;
-        transition: opacity 0.3s;
-        margin-top: auto;
-        margin-bottom: auto;
        
       }
    .curved{
