@@ -479,6 +479,7 @@ top: 7vh;
   text-transform: uppercase;
   color: #fff;
     width: 25%;
+  height: 95%;
   overflow: hidden;
   display: flex;
   padding: 0 0.6em;
@@ -490,6 +491,7 @@ top: 7vh;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   justify-content: center;
+  align-items: center;
   white-space; nowrap;
 }
 .menu_label:hover .fa {
@@ -535,8 +537,8 @@ top: 7vh;
      .faa1, .faa{
        width: 100%
         max-width: 38%;
-        max-height: none;
-        height: auto;
+        max-height: 95%;
+       
         transition: all 0.3s ease;
         display: inline;
         padding-top: 0.2rem;
@@ -557,8 +559,15 @@ top: 7vh;
       .menu_label.active {
         background-color: rgba(255, 255, 255, .4); 
         width: 30%;
+        max-height: 95%;
+        height: 95%;
         transition: width 0.3s ease;
       }
+   .menu_label.active .faa{
+      max-width: 38%;
+        max-height: 95%;
+     margin: auto 0;
+   }
       .menu_label.active .menu_text {
               opacity: 1;
       }
