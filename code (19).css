@@ -13,7 +13,28 @@
     height: calc(100vh - 7vh - 6vh - 7vh );
      
   }
+ .faa1, .faa{
+       width: 100%
+        max-width: 38%;
+        max-height: 4.5vh;
+        height: auto;
+        transition: all 0.3s ease;
+        display: inline;
+        padding-top: 0.2rem;
+        margin: auto 0;
+      }
 
+  
+      .menu_text {
+        font-size: 1.5rem;
+        padding-left: 0.5rem;
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.3s;
+        margin-top: auto;
+        margin-bottom: auto;
+       
+      }
   /* Fine-tuning for specific mobile breakpoints */
 
     
@@ -46,15 +67,28 @@
       height: 2.8rem;
    } 
      
-   .faa{
-          max-width: 90%;
-    }
-     .faa1{
-        width: 100%;
-        max-width: 60%;
-        max-height: 5.5vh;
-        
-     }
+    .faa1, .faa{
+       width: 100%
+        max-width: 38%;
+        max-height: 4.5vh;
+        height: auto;
+        transition: all 0.3s ease;
+        display: inline;
+        padding-top: 0.2rem;
+        margin: auto 0;
+      }
+
+  
+      .menu_text {
+        font-size: 1.2rem;
+        padding-left: 0.5rem;
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.3s;
+        margin-top: auto;
+        margin-bottom: auto;
+       
+      }
     .faaa {
     height: auto;
     width: 100%;
@@ -93,16 +127,6 @@
       margin: auto 0;
       height: 2.6rem;
    } 
-     
-   .faa{
-          max-width: 90%;
-    }
-     .faa1{
-        width: 100%;
-        max-width: 60%;
-        max-height: 5.5vh;
-        
-     }
     .faaa {
     height: auto;
     width: 100%;
@@ -135,11 +159,7 @@
       margin: auto 0;
       height: 3rem;
    } 
-    .faaa {
-    height: auto;
-    width: 100%;
-    max-width: 45%;
-}
+   
   
 }
    
@@ -167,20 +187,34 @@
     top: 8.5vh;
     height: calc(100vh - 4vh - 6vh - 7vh );
      
-   }.menu_text {
-  padding-left: 0.1rem; 
-  font-size: 0.8rem; 
-}
+   
 
    
    .bottom-nav{
       height: 8.5vh;
    }
-   .faa{
-      width: 100%;
-     max-width: 100%;
-      height: auto;
-   }
+    .faa1, .faa{
+       width: 100%
+        max-width: 38%;
+        max-height: 4.5vh;
+        height: auto;
+        transition: all 0.3s ease;
+        display: inline;
+        padding-top: 0.2rem;
+        margin: auto 0;
+      }
+
+  
+      .menu_text {
+        font-size: 0.8rem;
+        padding-left: 0.5rem;
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.3s;
+        margin-top: auto;
+        margin-bottom: auto;
+       
+      }
    .curved{
       top: 8vh;
    } 
