@@ -468,9 +468,7 @@ top: 7vh;
   align-items: center;
   white-space; nowrap;
 }
-.menu_label:hover .fa {
-  opacity: 1;
-}
+
 .menu_text {
   opacity: 0;
   -moz-transition: all 0.3s;
@@ -493,20 +491,14 @@ top: 7vh;
 }
       
       .menu_label:hover {
-        background-color: rgba(255, 255, 255, 0.5); 
-      height: 90%;
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 15%;
+      height: 95%;
       }
-      .fa {
-        max-width: 38%;
-        margin-right: 0; 
-        margin: auto 0;
-        display: inline;
-        height: auto;
-         
-      }
-     .faa1, .faa{
+     
+      .faa{
        width: 100%
-        max-width: 25%;
+        max-width: 20%;
         max-height: 5vh;
        heiht: auto;
         transition: width 0.3s ease, max-height 0.3s ease;
@@ -518,7 +510,7 @@ top: 7vh;
   
       .menu_text {
         font-size: 1.5rem;
-        padding-left: 0.1rem;
+        padding: 0;
         white-space: nowrap;
         opacity: 0;
         transition: opacity 0.3s;
@@ -528,7 +520,7 @@ top: 7vh;
       }
       .menu_label.active {
         background-color: rgba(255, 255, 255, .4); 
-       width: 30%;
+       width: 20%;
         transition: width 0.3s ease;
       }
   .menu_label.active .faa{ 
@@ -656,7 +648,7 @@ top: 7vh;
         <input class="menu_input" id="btn4" name="menu" type="radio">
         <label class="menu_label" for="btn4">
             <span class="icon-container">
-              <img class="faa" src="MW.png" alt="Workers page icon">
+              <img src="MW.png" alt="Workers page icon" class="faa" >
             </span>
             <span class="menu_text">
               <a href="#" data-section="cog"> edit</a>
