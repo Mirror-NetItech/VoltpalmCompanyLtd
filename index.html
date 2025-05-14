@@ -479,10 +479,11 @@ top: 7vh;
   text-transform: uppercase;
   color: #fff;
     width: 25%;
+  height: 6.5vh;
   overflow: hidden;
   display: flex;
   padding: 0 0.6em;
-  border-radius: 0.2em; 
+  border-radius: 0.5rem; 
   background-color: rgba(255, 255, 255, 0);
   box-sizing: border-box;
   -moz-transition: all 0.3s;
@@ -532,13 +533,14 @@ top: 7vh;
         max-width: 38%;
         margin-right: 0; 
         margin: auto 0;
+         transition: width 0.3s ease;
       }
      .faa1, .faa{
        width: 100%
-        max-width: 34%;
+        max-width: 25%;
         max-height: 5vh;
        heiht: auto;
-        transition: all 0.3s ease;
+        transition: width 0.3s ease;
         display: inline;
         padding-top: 0.2rem;
         margin: auto 0;
@@ -547,7 +549,7 @@ top: 7vh;
   
       .menu_text {
         font-size: 1.5rem;
-        padding-left: 0.5rem;
+        padding-left: 0.1rem;
         white-space: nowrap;
         opacity: 0;
         transition: opacity 0.3s;
@@ -560,6 +562,10 @@ top: 7vh;
        width: 30%;
         transition: width 0.3s ease;
       }
+  .menu_label.active .faa{ 
+    max-width: 30%; 
+    margin-right: 2px:
+  }
       .menu_label.active .menu_text {
               opacity: 1;
       }
