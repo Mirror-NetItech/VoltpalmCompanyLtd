@@ -10,7 +10,7 @@
 @media (max-width: 767px) {
  .nav-top{
     padding: 10px auto;
-      box-siing: border-box;   
+      box-sizing: border-box;   
          }
   .menu_input[type=radio]:checked + .menu_label {
   background-color: rgba(255, 255, 255, 0.3);
@@ -181,7 +181,7 @@
  .top-nav{
     height: 8.5vh;
      padding: 10px auto;
-      box-siing: border-box;
+      box-sizing: border-box;
    
  } 
    .topSpan {
@@ -208,15 +208,10 @@
     top: 8.5vh;
     height: calc(100vh - 4vh - 6vh - 7vh );
    }
-   
-
-   
    .bottom-nav{
       height: 8.5vh;
    }
    
-
-  
       .menu_text {
         font-size: 0.8rem;
        
