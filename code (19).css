@@ -180,6 +180,8 @@
 @media (max-width: 380px) and (max-height: 600px){
  .top-nav{
     height: 8.5vh;
+     padding: 10px auto;
+      box-siing: border-box;
    
  } 
    .topSpan {
@@ -191,7 +193,11 @@
    .nav-bottom{
       margin: 0 0 3% 50%;
       height: 7vh;
+      padding-top: 5px;
     }
+   .nav-top{
+      padding-top: 2px;
+   }
     .custom-o{
       top: 4px;
       width: 2rem;
