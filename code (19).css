@@ -8,11 +8,10 @@
    -------------------------------------------------------------------------- */
 
 @media (max-width: 767px) {
-  .glass{
-    
-    height: calc(100vh - 7vh - 6vh - 7vh );
-     
-  }
+ .nav-top{
+    padding: 5px auto;
+         
+         }
  
   /* Fine-tuning for specific mobile breakpoints */
 
@@ -46,12 +45,28 @@
       height: 2.5rem;
    } 
      
-    .faa1, .faa{
+    .menu_input[type=radio]:checked + .menu_label {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 12%; 
+  height:6vh;
+}
+
+.menu_input[type=radio]:checked + .menu_label .menu_text {
+  opacity: 1;
+}
+      
+      .menu_label:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: auto 5px;
+      height: 90%;
+      }
+     
+      .faa{
        width: 100%
-        max-width: 38%;
-        max-height: 4.5vh;
-        height: auto;
-        transition: all 0.3s ease;
+        max-width: 15%;
+        max-height: 4vh;
+       heiht: auto;
+        transition: width 0.3s ease, max-height 0.3s ease;
         display: inline;
         padding-top: 0.2rem;
         margin: auto 0;
@@ -60,7 +75,7 @@
   
       .menu_text {
         font-size: 1.2rem;
-        padding-left: 0.5rem;
+        padding: 0;
         white-space: nowrap;
         opacity: 0;
         transition: opacity 0.3s;
@@ -68,6 +83,19 @@
         margin-bottom: auto;
        
       }
+      .menu_label.active {
+        background-color: rgba(255, 255, 255, .4); 
+       width: 12%;
+       height: 6vh;
+       margin: auto 5px;
+       transition: width 0.3s ease;
+      }
+  .menu_label.active .faa{ 
+    width: 100%;
+    max-width: 85%; 
+    margin-right: 2px:
+
+  }
     .faaa {
     height: auto;
     width: 100%;
