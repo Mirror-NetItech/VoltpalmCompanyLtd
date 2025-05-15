@@ -27,6 +27,46 @@
    .menu_label{
       width: 30%;
    }
+    .menu_text {
+        font-size: 1.1rem;
+        padding: 0;
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.5s;
+        margin-top: auto;
+        margin-bottom: auto;
+       
+      }
+   .menu_input[type=radio]:checked + .menu_label .menu_text {
+  opacity: 1;
+}
+      
+      .menu_label:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: auto 5px;
+      height: 90%;
+      }
+     
+      .faa{
+       width: 100%
+        max-width: 15%;
+        max-height: 4vh;
+       heiht: auto;
+        transition: width 0.5s ease, max-height 0.3s ease;
+        display: inline;
+        padding-top: 0.2rem;
+        margin: auto 0;
+      }
+
+  
+     
+     
+  .menu_label.active .faa{ 
+    width: 100%;
+    max-width: 95%; 
+    margin-right: 4px:
+
+  }
   /* Fine-tuning for specific mobile breakpoints */
 
     
@@ -62,45 +102,7 @@
      
    
 
-.menu_input[type=radio]:checked + .menu_label .menu_text {
-  opacity: 1;
-}
-      
-      .menu_label:hover {
-        background-color: rgba(255, 255, 255, 0.5);
-        margin: auto 5px;
-      height: 90%;
-      }
-     
-      .faa{
-       width: 100%
-        max-width: 15%;
-        max-height: 4vh;
-       heiht: auto;
-        transition: width 0.5s ease, max-height 0.3s ease;
-        display: inline;
-        padding-top: 0.2rem;
-        margin: auto 0;
-      }
 
-  
-      .menu_text {
-        font-size: 1.1rem;
-        padding: 0;
-        white-space: nowrap;
-        opacity: 0;
-        transition: opacity 0.5s;
-        margin-top: auto;
-        margin-bottom: auto;
-       
-      }
-     
-  .menu_label.active .faa{ 
-    width: 100%;
-    max-width: 95%; 
-    margin-right: 4px:
-
-  }
     .faaa {
     height: auto;
     width: 100%;
@@ -178,7 +180,7 @@
 @media (max-width: 380px) and (max-height: 600px){
  .top-nav{
     height: 8.5vh;
-    padding-top: 3px;
+    padding: 5px auto;
  } 
    .topSpan {
     font-size: 1.4rem;
@@ -206,16 +208,7 @@
    .bottom-nav{
       height: 8.5vh;
    }
-    .faa1, .faa{
-       width: 100%
-        max-width: 38%;
-        max-height: 4.5vh;
-        height: auto;
-        transition: all 0.3s ease;
-        display: inline;
-        padding-top: 0.2rem;
-        margin: auto 0;
-      }
+   
 
   
       .menu_text {
