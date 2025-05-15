@@ -226,7 +226,8 @@
     height: calc(100vh - 10vh - 6vh - 7vh );
    }
   .section-scrollable-content {
-     max-height: 93vh;
+     height: 100%;
+     max-height: 92.5vh;
   }
   }
 }
