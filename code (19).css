@@ -20,6 +20,7 @@
  .nav-bottom{
       margin: 0 0 3% 50%;
       height: 40%;
+    padding-top: 2px;
     }
     .topSpan {
     font-size: 1.9rem;
@@ -38,11 +39,11 @@
     white-space: nowrap;
 }
    .custom-o{
-      top: 8.8px;
+      top: 8.5px;
       
-      width: 2.55rem;
+      width: 2.4rem;
       margin: auto 0;
-      height: 2.5rem;
+      height: 2.4rem;
    } 
      
     .menu_input[type=radio]:checked + .menu_label {
