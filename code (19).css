@@ -24,6 +24,9 @@
        margin: auto 5px;
        transition: width 0.3s ease;
       }
+   .menu_label{
+      width: 30%;
+   }
   /* Fine-tuning for specific mobile breakpoints */
 
     
@@ -82,7 +85,7 @@
 
   
       .menu_text {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 0;
         white-space: nowrap;
         opacity: 0;
