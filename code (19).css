@@ -220,13 +220,7 @@
       top: 8vh;
    } 
 }
-@media (width: 360px) and (min-height: 640px) and (max-height: 720px) {
-  /* Styles for 360x644 */
- .glass{
-    top: 8.5vh;
-    height: calc(100vh - 20vh - 6vh - 7vh );
- }  
-} 
+
 }
 
  
