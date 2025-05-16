@@ -212,8 +212,8 @@
    } 
 }
 /* Targeting viewport width of 360px and height of 644px */
-@media (min-width: 331px) and (max-width: 360) 
-   and (min-height: 601px) and (max-height: 720) {
+@media (min-width: 331px) and (max-width: 360px) 
+   and (min-height: 601px) and (max-height: 720px) {
   .glass{
     top: 9vh;
     height: calc(100vh - 50vh - 6vh - 7vh );
