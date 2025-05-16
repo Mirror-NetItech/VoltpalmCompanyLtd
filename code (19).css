@@ -80,7 +80,7 @@
     font-size: 1.8rem;
 }
    .glass{
-         top: 5vh;
+         top: 1vh;
     height: calc(100vh - 3vh - 6vh - 7vh );
       }
     .nav-top{
