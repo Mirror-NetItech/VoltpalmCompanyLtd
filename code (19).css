@@ -217,7 +217,11 @@
   .glass{
   op: 8.5vh;
     height: calc(100vh - 10.5vh - 6vh - 7vh );
-   }  
+   } 
+   .section-scrollable-content {
+        /* Height calculation to ensure 92vh total with 1vh bottom space */
+  height: calc(92vh - 1vh); /* Total height - 1vh bottom space */
+  margin-bottom: 1vh; /* Add 1vh space at the bottom */
   }
 }
 }
