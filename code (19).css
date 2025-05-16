@@ -56,16 +56,11 @@
         display: inline;
         padding-top: 0.2rem;
         margin: auto 0;
-      }
-
-  
-     
-     
+      }   
   .menu_label.active .faa{ 
     width: 100%;
     max-width: 95%; 
-    margin-right: 4px:
-
+    margin-right: 4px;
   }
   /* Fine-tuning for specific mobile breakpoints */
 
@@ -99,10 +94,6 @@
       margin: auto 0;
       height: 2.4rem;
    } 
-     
-   
-
-
     .faaa {
     height: auto;
     width: 100%;
@@ -221,7 +212,7 @@
    } 
 }
 /* Targeting viewport width of 360px and height of 644px */
-@media screen and (min-width: 331px) and (max-width: 360) 
+@media (min-width: 331px) and (max-width: 360) 
    and (min-height: 601px) and (max-height: 720) {
   .glass{
     top: 1vh;
