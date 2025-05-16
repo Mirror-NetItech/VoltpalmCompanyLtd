@@ -220,7 +220,7 @@
    } 
    .section-scrollable-content {
         /* Height calculation to ensure 92vh total with 1vh bottom space */
-  height: calc(92vh - 1vh); /* Total height - 1vh bottom space */
+  height: calc(93vh - 1vh); /* Total height - 1vh bottom space */
   margin-bottom: 1vh; /* Add 1vh space at the bottom */
   }
 }
