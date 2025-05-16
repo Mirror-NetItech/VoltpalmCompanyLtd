@@ -220,18 +220,15 @@
       top: 8vh;
    } 
 }
-   @media (min-height: 601px) and (max-height: 720px){
+ 
+}
+  @media (min-height: 601px) and (max-height: 720px){
       .glass{
     top: 8.5vh;
     height: calc(100vh - 10vh - 6vh - 7vh );
    }
-  .section-scrollable-content {
-     height: 100%;
-     max-height: 92.5vh;
+  
   }
-  }
-}
-
 /* --------------------------------------------------------------------------
    iPads, Tablets: 581px - 880px (Slightly increased sizes)
    -------------------------------------------------------------------------- */
