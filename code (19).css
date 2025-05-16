@@ -224,7 +224,7 @@
   /* Styles for 360x644 */
  .glass{
     top: 8.5vh;
-    height: calc(100vh - 10vh - 6vh - 7vh );
+    height: calc(100vh - 15vh - 6vh - 7vh );
  }  
 } 
 }
