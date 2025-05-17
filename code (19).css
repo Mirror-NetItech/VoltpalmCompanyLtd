@@ -335,9 +335,25 @@
       height: 40%;
     }
     .nav-top{
-      margin: 0 33% 0 0;
+      margin: 0 35% 0 0;
       padding-top: 3px;
     }
+      .bottomSpan {
+    font-weight: bold;
+    font-size: 2.7rem;
+    white-space: nowrap;
+}
+    .topSpan {
+    font-size: 2.9rem;
+}
+        .custom-o{
+      top: 8px;
+      
+      width: 3.5rem;
+      margin: auto 0;
+      height: 3.5rem;
+   } 
+  }
   }
 }
 
