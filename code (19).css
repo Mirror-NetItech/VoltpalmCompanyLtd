@@ -215,7 +215,7 @@
    @media only screen and (width: 360px) and (min-height: 760px) and (max-height: 805px) and (orientation: portrait) {
   .glass{
     top: 8.5vh;
-    height: calc(100vh - 4vh - 6vh - 7vh );
+    height: calc(100vh - 2vh - 6vh - 7vh );
   }
    } 
 
