@@ -212,17 +212,7 @@
 }
  /* Base Mobile Styles for the .glass */
 
-  /* HIGH PRECISION TARGET DEVICE to TARGET 360 pixel Device*/
-  @media only screen and (width: 360px)
-    and (min-height: 760px)
-    and (max-height: 805px) 
-    and (orientation: portrait){
-           .glass {
-              /* Your styles for glass on Device 360PX & height is in 760px to 805px but with rotation*/
-          top: 8.5vh;
-    height: calc(100vh - 7vh - 6vh - 7vh );
-           }
-  }
+ 
    @media (min-height: 721px) and (max-height: 805px){
       .glass{
  top: 8.5vh;
@@ -243,25 +233,7 @@
   margin-bottom: 1vh; /* Add 1vh space at the bottom */
   }
 }
-   /* Targeting viewport width of 360px and height of 644px */
-@media (min-width: 331px) and (max-width: 360px) 
-   and (min-height: 721px) and (max-height: 805px) {
-  .glass{
-  top: 8.5vh;
-    height: calc(100vh - 7vh - 6vh - 7vh );
-   } 
-   /* HIGH PRECISION TARGET DEVICE to TARGET 360 pixel Device*
-  @media only screen and (width: 360px)
-    and (min-height: 760px)
-    and (max-height: 805px)
-    {
-       @media (min-width: 331px) and (max-width: 360px) {
-       .glass{
-         top: 8.5vh;
-    height: calc(100vh - 6vh - 7vh );
-      }   
-       }
-    }*/
+  
 }
 
  
