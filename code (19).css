@@ -245,7 +245,7 @@
     width: 100%;
     max-width: 45%;}  
 }   
-}
+
 /* Targeting viewport width of 360px and height of 644px */
 @media (min-width: 331px) and (max-width: 360px) 
    and (min-height: 601px) and (max-height: 720px) {
