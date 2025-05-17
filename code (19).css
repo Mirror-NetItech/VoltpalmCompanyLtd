@@ -350,6 +350,7 @@
     .topSpan {
     font-size: 2.9rem;
 }
+     
         .custom-o{
       top: 8px;
       
@@ -380,6 +381,12 @@
     padding-top: 5px ;
       box-sizing: border-box;   
          }
+     .topSpan {
+    font-size: 2.5rem;
+}
+     .bottomSpan{
+        font-size: 2.1rem;
+     }
      .nav-bottom{
         padding-top: 2px;
      }
