@@ -63,7 +63,7 @@
     margin-right: 4px;
   }
   /* Fine-tuning for specific mobile breakpoints */
-@media (min-width: 320px) and (max-width: 365px){
+@media (min-width: 320px) and (max-width: 365px)  and (min-height: 721px) and (max-height: 810px){
  .nav-bottom{
       margin: 0 0 3% 50%;
       height: 40%;
@@ -98,7 +98,7 @@
     max-width: 45%;}  
 }   
 }
-@media (min-width: 366px) and (max-width: 414px){
+@media (min-width: 320px) and (max-width: 414px){
  .nav-bottom{
       margin: 0 0 3% 50%;
       height: 40%;
