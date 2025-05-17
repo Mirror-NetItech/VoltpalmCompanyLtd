@@ -210,14 +210,7 @@
       top: 8vh;
    } 
 }
- @media (max-width: 767px) { /* All queries are nested within this */
-    /* Device-Specific Queries */
-   @media only screen and (width: 360px) and (min-height: 760px) and (max-height: 805px) and (orientation: portrait) {
-  .glass{
-    top: 8.5vh;
-    height: calc(100vh - 2vh - 6vh - 7vh );
-  }
-   } 
+
 
 /* Targeting viewport width of 360px and height of 644px */
 @media (min-width: 331px) and (max-width: 360px) 
