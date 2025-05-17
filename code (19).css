@@ -312,7 +312,21 @@
   } 
    
      @media (min-width: 832px) and (max-width: 947px) {
-    
+    .bottomSpan {
+    font-weight: bold;
+    font-size: 2.7rem;
+    white-space: nowrap;
+}
+    .topSpan {
+    font-size: 2.9rem;
+}
+        .custom-o{
+      top: 8px;
+      
+      width: 3.5rem;
+      margin: auto 0;
+      height: 3.5rem;
+   } 
   }
 
   @media (min-width: 948px) {
