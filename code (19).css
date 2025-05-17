@@ -297,7 +297,11 @@
       height: 3.2rem;
    } 
      
-   
+   @media (max-width: 767px) { /* All queries are nested within this */
+    /* Device-Specific Queries */
+   @media only screen and (width: 360px) and (min-height: 760px) and (max-height: 805px) and (orientation: portrait) {
+  
+   }
   }
 
   /* Fine-tuning for specific tablet breakpoints */
