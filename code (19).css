@@ -226,6 +226,15 @@
   margin-bottom: 1vh; /* Add 1vh space at the bottom */
   }
 }
+   /* HIGH PRECISION TARGET DEVICE to TARGET 360 pixel Device*/
+  @media only screen and (width: 360px)
+    and (min-height: 760px)
+    and (max-height: 805px)
+    {
+       @media (min-width: 331px) and (max-width: 360px) { /* This is for GENERAL targeting that has issues */
+          
+       }
+    }
 }
 
  
