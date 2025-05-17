@@ -330,7 +330,14 @@
   }
 
   @media (min-width: 948px) {
-   
+   .nav-bottom{
+      margin: 0 0 3% 25%;
+      height: 40%;
+    }
+    .nav-top{
+      margin: 0 33% 0 0;
+      padding-top: 3px;
+    }
   }
 }
 
