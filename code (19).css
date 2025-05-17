@@ -232,7 +232,10 @@
     and (max-height: 805px)
     {
        @media (min-width: 331px) and (max-width: 360px) { /* This is for GENERAL targeting that has issues */
-          
+       .glass{
+         top: 8.5vh;
+    height: calc(100vh - 3vh - 6vh - 7vh );
+      }   
        }
     }
 }
