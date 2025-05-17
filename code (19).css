@@ -214,20 +214,7 @@
 
  
   
-/* Targeting viewport width of 360px and height of 644px */
-@media (min-width: 331px) and (max-width: 360px) 
-   and (min-height: 601px) and (max-height: 720px) {
-  .glass{
- top: 8.5vh;
-    height: calc(100vh - 11vh - 6vh - 7vh );
-   } 
-   .section-scrollable-content {
-      flex-grow: none;
-        /* Height calculation to ensure 92vh total with 1vh bottom space */
-  height: calc(93vh - 1vh); /* Total height - 1vh bottom space */
-  margin-bottom: 1vh; /* Add 1vh space at the bottom */
-  }
-}
+
   
 }
 
