@@ -222,7 +222,7 @@
 /* --------------------------------------------------------------------------
    iPads, Tablets: 581px - 880px (Slightly increased sizes)
    -------------------------------------------------------------------------- */
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1024px){
 .menu_input[type=radio]:checked + .menu_label {
   background-color: rgba(255, 255, 255, 0.3);
   width: 30%; 
