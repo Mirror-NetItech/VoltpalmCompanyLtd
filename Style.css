@@ -26,6 +26,8 @@
       }
    .menu_label{
       width: 30%;
+      height: 100%;
+      max-height: 6.5vh;
    }
     .menu_text {
         font-size: 1.1rem;
