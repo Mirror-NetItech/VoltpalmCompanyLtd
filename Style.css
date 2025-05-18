@@ -49,7 +49,7 @@
      
       .faa{
        width: 100%;
-        max-width: 85%;
+        max-width: 95%;
         max-height: 5vh;
        height: auto;
         transition: width 0.5s ease, max-height 0.3s ease;
