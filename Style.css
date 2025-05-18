@@ -207,7 +207,12 @@
     height: auto;
     width: 100%;
     max-width: 90%;}
-  
+  .rightt {
+    margin-left: 50%;
+    width: 100%;
+    max-width: 50%;
+    white-space: nowrap;
+}
       .menu_text {
         font-size: 0.8rem;
        
