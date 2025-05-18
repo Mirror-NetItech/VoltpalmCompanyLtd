@@ -9,7 +9,7 @@
 
 @media (max-width: 767px) {
  .nav-top{
-    padding: 10px 2px;
+    padding-top: 10px;
       box-sizing: border-box;   
          }
   .menu_input[type=radio]:checked + .menu_label {
@@ -186,7 +186,7 @@
       padding-top: 1px;
     }
    .nav-top{
-      padding-top: 5px;
+      padding-top: 10px;
    }
     .custom-o{
       top: 4px;
