@@ -25,9 +25,8 @@
        transition: width 0.3s ease;
       }
    .menu_label{
-      width: 30%;
-      height: 100%;
-      max-height: 6.5vh;
+      width: 50%;
+     
    }
     .menu_text {
         font-size: 1.1rem;
