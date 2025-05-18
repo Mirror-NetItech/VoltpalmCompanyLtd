@@ -206,7 +206,9 @@
    .faaa {
     height: auto;
     width: 100%;
-    max-width: 40%;}
+    max-width: 36%;
+      max-height: 6vh;
+   }
   .rightt {
     margin-left: 25%;
     width: 100%;
