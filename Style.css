@@ -203,7 +203,11 @@
    .bottom-nav{
       height: 8.5vh;
    }
-   
+   .faaa {
+    height: auto;
+    width: 100%;
+    max-width: 45%;}
+  }
       .menu_text {
         font-size: 0.8rem;
        
