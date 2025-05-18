@@ -95,10 +95,17 @@
       margin: auto 0;
       height: 2.4rem;
    } 
-    .faaa {
+     .faaa {
     height: auto;
     width: 100%;
-    max-width: 45%;}  
+    max-width: 36%;
+     
+   }
+  .rightt {
+    margin-left: 35%;
+    width: 100%;
+    max-width: 50%;
+    white-space: nowrap;
 }
 
   @media (min-width: 415px) and (max-width: 600px) {
@@ -206,8 +213,8 @@
    .faaa {
     height: auto;
     width: 100%;
-    max-width: 36%;
-      max-height: 6vh;
+    max-width: 35%;
+     
    }
   .rightt {
     margin-left: 25%;
