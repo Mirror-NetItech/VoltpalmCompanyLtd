@@ -25,7 +25,7 @@
 }
 .menu_input[type=radio]:checked + .menu_label .icon-container .faa {
    width: 100%;
-    max-width: 85%; 
+    max-width: 75%; 
     margin-right: 2px;
 }
    .menu_label:hover {
@@ -65,7 +65,7 @@
       }
   .menu_label.active .faa{ 
     width: 100%;
-    max-width: 85%; 
+    max-width: 75%; 
     margin-right: 2px;
   }
   /* Fine-tuning for specific mobile breakpoints */
@@ -102,7 +102,7 @@
     .faaa {
     height: auto;
     width: 100%;
-    max-width: 45%;}  
+    max-width: 60%;}  
 }
 
   @media (min-width: 415px) and (max-width: 600px) {
