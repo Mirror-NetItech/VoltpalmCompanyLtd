@@ -48,12 +48,12 @@
       }
      
       .faa{
-       width: 100%
-        max-width: 15%;
+       width: 100%;
+        max-width: 50%;
         max-height: 4vh;
        heiht: auto;
         transition: width 0.5s ease, max-height 0.3s ease;
-        display: inline;
+        display: block;
         padding-top: 0.2rem;
         margin: auto 0;
       }   
@@ -259,12 +259,12 @@
       }
      
       .faa{
-       width: 100%
-        max-width: 15%;
+       width: 100%;
+        max-width: 50%;
         max-height: 4vh;
        heiht: auto;
         transition: width 0.5s ease, max-height 0.3s ease;
-        display: inline;
+        display: block;
         padding-top: 0.2rem;
         margin: auto 0;
       }   
