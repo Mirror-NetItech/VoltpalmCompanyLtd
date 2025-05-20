@@ -106,11 +106,11 @@
     max-width: 50%;
     white-space: nowrap;
 }
-
+     }
   @media (min-width: 415px) and (max-width: 600px) {
    
     .nav-bottom{
-      margin: 0 0 3% 60%;
+      margin: 0 0 3% 50%;
       height: 40%;
     }
     .topSpan {
