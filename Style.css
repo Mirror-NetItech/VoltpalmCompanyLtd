@@ -20,7 +20,7 @@
   padding: 0 5px;
 }
 .menu_input[type=radio]:checked + .menu_label {
-  width: 25%; 
+  width: 30%; 
   height:6vh;
 }
 .menu_input[type=radio]:checked + .menu_label .icon-container .faa {
@@ -53,7 +53,7 @@
        
       }
       .menu_label.active {
-       width: 25%;
+       width: 30%;
        height: 6vh;
        margin: auto 5px;
       }
