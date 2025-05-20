@@ -12,58 +12,55 @@
     padding-top: 10px;
       box-sizing: border-box;   
          }
-  .menu_input[type=radio]:checked + .menu_label {
-  background-color: rgba(255, 255, 255, 0.3);
-  width: 35%; 
-  height: 6vh;
+  .menu_label {
+  font-size: 1rem;
+  line-height: 2.5rem;
+    width: 25%;
+  max-height: 6vh;
+  padding: 0 5px;
 }
-    .menu_label.active {
-        background-color: rgba(255, 255, 255, .4); 
-       width: 35%;
-       height: 6vh;
-       margin: auto 5px;
-       transition: width 0.3s ease;
+.menu_input[type=radio]:checked + .menu_label {
+  width: 20%; 
+  height:6vh;
+}
+.menu_input[type=radio]:checked + .menu_label .icon-container .faa {
+   width: 100%;
+    max-width: 75%; 
+    margin-right: 2px;
+}
+   .menu_label:hover {
+        margin: auto 5px;
+      height: 90%;
       }
-   .menu_label{
-      width: 30%;
-     line-height: 1.5rem;
-   }
-    .menu_text {
-        font-size: 1.1rem;
+      .faa{
+       width: 100%;
+        max-width: 80%;
+        max-height: 4.5vh;
+       height: auto;
+        transition: width 0.3s ease, max-height 0.3s ease;
+        display: block;
+        margin: auto 0;
+        border-radius: 5px;
+      }
+      .menu_text {
+        font-size: 1.5rem;
         padding: 0;
         white-space: nowrap;
         opacity: 0;
-        transition: opacity 0.5s;
+        transition: opacity 0.3s;
         margin-top: auto;
         margin-bottom: auto;
        
       }
-   .menu_input[type=radio]:checked + .menu_label .menu_text {
-  opacity: 1;
-}
-      
-      .menu_label:hover {
-        background-color: rgba(255, 255, 255, 0.5);
-        margin: auto 5px;
-      height: 90%;
+      .menu_label.active {
+       width: 20%;
+       height: 6vh;
+       margin: auto 5px;
       }
-     
-      .faa{
-       width: 100%;
-        max-width: 95%;
-        max-height: 4.8vh;
-       height: auto;
-        transition: width 0.5s ease, max-height 0.3s ease;
-        display: inline;
-        padding-top: 0.2rem;
-        margin: auto 0;
-      }   
   .menu_label.active .faa{ 
     width: 100%;
-    max-width: 95%; 
-    margin-right: 4px;
-      max-height: 5.5vh;
-       height: auto;
+    max-width: 75%; 
+    margin-right: 2px;
   }
   /* Fine-tuning for specific mobile breakpoints */
 
