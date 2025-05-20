@@ -20,12 +20,12 @@
   padding: 0 5px;
 }
 .menu_input[type=radio]:checked + .menu_label {
-  width: 35%; 
+  width: 40%; 
   height:6vh;
 }
 .menu_input[type=radio]:checked + .menu_label .icon-container .faa {
    width: 100%;
-    max-width: 90%; 
+    max-width: 95%; 
     margin-right: 1px;
 }
    .menu_label:hover {
@@ -34,7 +34,7 @@
       }
       .faa{
        width: 100%;
-        max-width: 98%;
+        max-width: 100%;
         max-height: 4.65vh;
        height: auto;
         transition: width 0.3s ease, max-height 0.3s ease;
@@ -53,15 +53,16 @@
        
       }
       .menu_label.active {
-       width: 35%;
+       width: 40%;
        height: 6vh;
        margin: auto 5px;
       }
   .menu_label.active .faa{ 
     width: 100%;
-    max-width: 90%; 
+    max-width: 95%; 
     margin-right: 1px;
   }
+   
   /* Fine-tuning for specific mobile breakpoints */
 
 @media (min-width: 320px) and (max-width: 414px){
@@ -141,7 +142,7 @@
     .faaa {
     height: auto;
     width: 100%;
-    max-width: 45%;}
+    max-width: 95%;}
   }
    @media (min-width: 601px) and (max-width: 767px) {
     .nav-bottom{
