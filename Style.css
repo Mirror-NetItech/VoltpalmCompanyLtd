@@ -15,7 +15,7 @@
   .menu_label {
   font-size: 1rem;
   line-height: 2.5rem;
-    width: 32%;
+    width: 35%;
   max-height: 6vh;
   padding: 0 5px;
 }
@@ -53,7 +53,7 @@
        
       }
       .menu_label.active {
-       width: 32%;
+       width: 35%;
        height: 6vh;
        margin: auto 5px;
       }
@@ -221,9 +221,13 @@
     white-space: nowrap;
 }
       .menu_text {
-        font-size: 0.8rem;
+        font-size: 0.95rem;
        
       }
+    .menu_label {
+  font-size: 1rem;
+  line-height: 2rem;
+    }
    .curved{
       top: 8vh;
    } 
