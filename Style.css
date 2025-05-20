@@ -393,7 +393,7 @@
   @media (min-width: 1025px) and (max-width: 1366px) {
     /* Styles for smaller laptops and desktops (e.g., 1024px - 1366px) */
      .top-nav{
-        padding: 10px 5px;
+        padding-top: 10px;
      }
      .nav-top{
     padding-top: 5px ;
