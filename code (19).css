@@ -12,56 +12,7 @@
     padding: 10px 2px;
       box-sizing: border-box;   
          }
-  .menu_input[type=radio]:checked + .menu_label {
-  background-color: rgba(255, 255, 255, 0.3);
-  width: 30%; 
-  height:6vh;
-}
-    .menu_label.active {
-        background-color: rgba(255, 255, 255, .4); 
-       width: 30%;
-       height: 6vh;
-       margin: auto 5px;
-       transition: width 0.3s ease;
-      }
-   .menu_label{
-      width: 30%;
-   }
-    .menu_text {
-        font-size: 1.1rem;
-        padding: 0;
-        white-space: nowrap;
-        opacity: 0;
-        transition: opacity 0.5s;
-        margin-top: auto;
-        margin-bottom: auto;
-       
-      }
-   .menu_input[type=radio]:checked + .menu_label .menu_text {
-  opacity: 1;
-}
-      
-      .menu_label:hover {
-        background-color: rgba(255, 255, 255, 0.5);
-        margin: auto 5px;
-      height: 90%;
-      }
-     
-      .faa{
-       width: 100%;
-        max-width: 50%;
-        max-height: 4vh;
-       heiht: auto;
-        transition: width 0.5s ease, max-height 0.3s ease;
-        display: block;
-        padding-top: 0.2rem;
-        margin: auto 0;
-      }   
-  .menu_label.active .faa{ 
-    width: 100%;
-    max-width: 50%; 
-    margin-right: 4px;
-  }
+  
   /* Fine-tuning for specific mobile breakpoints */
 
 @media (min-width: 320px) and (max-width: 414px){
