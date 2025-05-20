@@ -12,7 +12,62 @@
     padding: 10px 2px;
       box-sizing: border-box;   
          }
-  
+  .menu_label {
+  font-size: 1rem;
+  line-height: 2.5rem;
+    width: 25%;
+  max-height: 6vh;
+  padding: 0 5px;
+}
+.menu_input[type=radio]:checked + .menu_label {
+  width: 20%; 
+  height:6vh;
+}
+.menu_input[type=radio]:checked + .menu_label .icon-container .faa {
+   width: 100%;
+    max-width: 85%; 
+    margin-right: 2px;
+}
+   .menu_label:hover {
+        margin: auto 5px;
+      height: 90%;
+      }
+      .faa{
+       width: 100%;
+        max-width: 80%;
+        max-height: 4.5vh;
+       height: auto;
+        transition: width 0.3s ease, max-height 0.3s ease;
+        display: block;
+        margin: auto 0;
+        border-radius: 5px;
+      }
+.icon-container{ margin: auto 0;
+                opacity:0.7;
+                display: inline-block;
+                position: relative;
+                max-width: 100%;
+               }
+      .menu_text {
+        font-size: 1.5rem;
+        padding: 0;
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.3s;
+        margin-top: auto;
+        margin-bottom: auto;
+       
+      }
+      .menu_label.active {
+       width: 20%;
+       height: 6vh;
+       margin: auto 5px;
+      }
+  .menu_label.active .faa{ 
+    width: 100%;
+    max-width: 85%; 
+    margin-right: 2px;
+  }
   /* Fine-tuning for specific mobile breakpoints */
 
 @media (min-width: 320px) and (max-width: 414px){
