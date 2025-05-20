@@ -400,13 +400,13 @@
       box-sizing: border-box;   
          }
      .topSpan {
-    font-size: 2.05rem;
+    font-size: 1.95rem;
 }
      .bottomSpan{
-        font-size: 1.85rem;
+        font-size: 1.75rem;
      }
      .nav-bottom{
-        padding-top: 3px;
+        padding-top: 2px;
      }
   }
 
