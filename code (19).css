@@ -59,7 +59,7 @@
       }   
   .menu_label.active .faa{ 
     width: 100%;
-    max-width: 95%; 
+    max-width: 50%; 
     margin-right: 4px;
   }
   /* Fine-tuning for specific mobile breakpoints */
