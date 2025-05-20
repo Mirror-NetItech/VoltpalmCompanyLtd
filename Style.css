@@ -15,7 +15,7 @@
   .menu_label {
   font-size: 1rem;
   line-height: 2.5rem;
-    width: 30%;
+    width: 32%;
   max-height: 6vh;
   padding: 0 5px;
 }
@@ -25,7 +25,7 @@
 }
 .menu_input[type=radio]:checked + .menu_label .icon-container .faa {
    width: 100%;
-    max-width: 95%; 
+    max-width: 88%; 
     margin-right: 2px;
 }
    .menu_label:hover {
@@ -34,8 +34,8 @@
       }
       .faa{
        width: 100%;
-        max-width: 90%;
-        max-height: 4.5vh;
+        max-width: 95%;
+        max-height: 4.65vh;
        height: auto;
         transition: width 0.3s ease, max-height 0.3s ease;
         display: block;
@@ -43,7 +43,7 @@
         border-radius: 5px;
       }
       .menu_text {
-        font-size: 1.3rem;
+        font-size: 1.15rem;
         padding: 0;
         white-space: nowrap;
         opacity: 0;
@@ -53,13 +53,13 @@
        
       }
       .menu_label.active {
-       width: 30%;
+       width: 32%;
        height: 6vh;
        margin: auto 5px;
       }
   .menu_label.active .faa{ 
     width: 100%;
-    max-width: 95%; 
+    max-width: 88%; 
     margin-right: 2px;
   }
   /* Fine-tuning for specific mobile breakpoints */
