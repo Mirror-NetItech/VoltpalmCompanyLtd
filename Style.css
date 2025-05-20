@@ -20,12 +20,12 @@
   padding: 0 5px;
 }
 .menu_input[type=radio]:checked + .menu_label {
-  width: 20%; 
+  width: 25%; 
   height:6vh;
 }
 .menu_input[type=radio]:checked + .menu_label .icon-container .faa {
    width: 100%;
-    max-width: 75%; 
+    max-width: 95%; 
     margin-right: 2px;
 }
    .menu_label:hover {
@@ -34,7 +34,7 @@
       }
       .faa{
        width: 100%;
-        max-width: 80%;
+        max-width: 90%;
         max-height: 4.5vh;
        height: auto;
         transition: width 0.3s ease, max-height 0.3s ease;
@@ -43,7 +43,7 @@
         border-radius: 5px;
       }
       .menu_text {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding: 0;
         white-space: nowrap;
         opacity: 0;
@@ -53,13 +53,13 @@
        
       }
       .menu_label.active {
-       width: 20%;
+       width: 25%;
        height: 6vh;
        margin: auto 5px;
       }
   .menu_label.active .faa{ 
     width: 100%;
-    max-width: 75%; 
+    max-width: 95%; 
     margin-right: 2px;
   }
   /* Fine-tuning for specific mobile breakpoints */
