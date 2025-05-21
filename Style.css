@@ -9,7 +9,7 @@
 
 @media (max-width: 767px) {
  .nav-top{
-    padding-top: 10px;
+    padding-top: 8px;
       box-sizing: border-box;   
          }
    p{
@@ -84,7 +84,7 @@
       } 
     .nav-top{
       margin: 0 36% 0 0;
-      padding-top: 5px;
+      padding-top: 4px;
     }
     .bottomSpan {
     font-weight: bold;
@@ -92,7 +92,7 @@
     white-space: nowrap;
 }
    .custom-o{
-      top: 7px;
+      top: 6.5px;
       
       width: 2.4rem;
       margin: auto 0;
@@ -137,7 +137,7 @@
     white-space: nowrap;
 }
    .custom-o{
-      top: 8px;
+      top: 7.5px;
       
       width: 2.6rem;
       margin: auto 0;
@@ -248,7 +248,7 @@
 @media (min-width: 377px) and (max-width: 414px) and (min-height: 671px) and (max-height: 740px){
    .glass{
       top: 8.5vh;
-    height: calc(100vh - 5vh - 6vh - 7vh ); 
+    height: calc(100vh - 8.5vh - 6vh - 7vh ); 
    }
 }  
 
