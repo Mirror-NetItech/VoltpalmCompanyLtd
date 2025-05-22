@@ -245,12 +245,12 @@
    }
 }
  
-@media (min-width: 377px) and (max-width: 414px) and (min-height: 671px) and (max-height: 740px){
+/*@media (min-width: 377px) and (max-width: 414px) and (min-height: 671px) and (max-height: 740px){
    .glass{
       top: 8.5vh;
     height: calc(100vh - 8.5vh - 6vh - 7vh ); 
    }
-}  
+} */ 
 
   
 }
